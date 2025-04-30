@@ -1,0 +1,27 @@
+- Create a public git repo on github and add a readme.md file in that repo._
+  Clone that repo repo on local machine using VS code terminal/git bash using ssh/https link of that repo._
+- Fix access denied error by adding your own ssh.
+- ssh-keygen -t ed25519 -C "your_email@example.com"
+- Now add your generated public Key to your github account.
+- Use "ls -la" to check for all file inside the repo including .git folder which is hidden and save all incrimental changes in you repo.
+- Edit Readme file and save changes.
+- check git repo for any changes with "git status" command.
+- Now creat new index.html file locally and run "git status" and check for Untracked files that are not part of git.
+- To add all Untracked and modified files to git use command "git add ." or "git add index.html" for just single file.
+- Save you commit to git locally used " git commit -m "Added index.html" -m "added index fime and made changes to redme file" " where first -m is mandatory comment and second -m is optional.
+- Use "git push origin master" to upload you change to project destination/github online repo.
+- To set remote upstrime as default use command "git commit -u origin master" and use "git push" from next time.
+- change git repo in terminal "git origin set-url origin your_repo_url"
+- check for repo branches "git branch"
+- create new branch in the repo "git checkout -b Your_new_branch_name"
+- Switch between branches with git checkout Your_branch_name use branch inistials with tab to suggition.
+- make changes to readme and push it to newly created branch.
+- use git checkout commant to switch between branches.
+- use git diff Your_destinagtion_branch_name to see the difference between of both branch
+- use git merge Your_destination_branch_name to merge into files and changes in the destination branch in this
+- case master branch. (this is not common practic method use pull request method)
+- Use git branch -M branch-name to create new branch
+- Use git branch -d Your_unused_banch to delete already merged branch.
+- Use reset to undo commits, git reset or git reset HEAD~1 for reset second last commit, use git log for list of all commits with unique hass and use these hass to reset commit till that commit git reset Your_unique_hass .
+- Reset commit alone with file changes use command git reset --hard Your_unique_hass .
+- If local repo is behind then remote repo use "git pull" to update your local branch
