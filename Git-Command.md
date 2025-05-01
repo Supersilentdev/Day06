@@ -30,4 +30,6 @@ case master branch. (this is not common practic method use pull request method)
 - Use git branch -d Your_unused_banch to delete already merged branch.
 - Use reset to undo commits, git reset or git reset HEAD~1 for reset second last commit, use git log for list of all commits with unique hass and use these hass to reset commit till that commit git reset Your_unique_hass .
 - Reset commit alone with file changes use command git reset --hard Your_unique_hass .
-- If local repo is behind then remote repo use "git pull" to update your local branch
+- If local repo is behind then remote repo use "git pull" to update your local branch.
+
+- git pull origin <branch_name> Even if git pull indicates "Already updated," it might not have merged the remote changes correctly, leading to the push rejection.
