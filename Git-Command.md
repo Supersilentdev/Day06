@@ -5,7 +5,7 @@
 - Now add your generated public Key to your github account.
 - Use "ls -la" to check for all file inside the repo including .git folder which is hidden and save all incrimental changes in you repo.
 - git init to inslizee local repo into git repo
-- Use git branch -M branch-name to create new branch
+- Use git branch -M branch-name to create new branchdev
 - Edit Readme file and save changes.
 - check git repo for any changes with "git status" command.
 - Now creat new index.html file locally and run "git status" and check for Untracked files that are not part of git.
