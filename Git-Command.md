@@ -4,6 +4,8 @@
 - ssh-keygen -t ed25519 -C "your_email@example.com"
 - Now add your generated public Key to your github account.
 - Use "ls -la" to check for all file inside the repo including .git folder which is hidden and save all incrimental changes in you repo.
+- git init to inslizee local repo into git repo
+- Use git branch -M branch-name to create new branch
 - Edit Readme file and save changes.
 - check git repo for any changes with "git status" command.
 - Now creat new index.html file locally and run "git status" and check for Untracked files that are not part of git.
@@ -19,8 +21,7 @@
 - use git checkout commant to switch between branches.
 - use git diff Your_destinagtion_branch_name to see the difference between of both branch
 - use git merge Your_destination_branch_name to merge into files and changes in the destination branch in this
-- case master branch. (this is not common practic method use pull request method)
-- Use git branch -M branch-name to create new branch
+case master branch. (this is not common practic method use pull request method)
 - Use git branch -d Your_unused_banch to delete already merged branch.
 - Use reset to undo commits, git reset or git reset HEAD~1 for reset second last commit, use git log for list of all commits with unique hass and use these hass to reset commit till that commit git reset Your_unique_hass .
 - Reset commit alone with file changes use command git reset --hard Your_unique_hass .
