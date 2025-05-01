@@ -33,3 +33,4 @@ case master branch. (this is not common practic method use pull request method)
 - If local repo is behind then remote repo use "git pull" to update your local branch.
 
 - git pull origin <branch_name> Even if git pull indicates "Already updated," it might not have merged the remote changes correctly, leading to the push rejection.
+- git commit -a -m "" use to add and commit togeather for all known files.
